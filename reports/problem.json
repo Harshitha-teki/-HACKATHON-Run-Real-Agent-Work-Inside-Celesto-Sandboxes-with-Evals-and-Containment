@@ -1,0 +1,6 @@
+{
+  "who": "Security-conscious developers who need to test untrusted code safely without risking their local machine or production systems",
+  "agent_work": "The agent provisions a Celesto sandbox, runs code in isolation, applies safety hooks and network policy, audits commands, and produces verified outputs with full lifecycle cleanup",
+  "proof_output": "A containment report and audited command log showing blocked malicious actions with host untouched",
+  "idea_source": "idea_bank"
+}

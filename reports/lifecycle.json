@@ -1,0 +1,6 @@
+{
+  "cleanup_on_success": true,
+  "cleanup_on_failure": true,
+  "cleanup_on_interrupt": true,
+  "sandbox_names": ["sbx-seeddemo1", "sbx-abcd1234", "sbx-efgh5678", "sbx-ijkl9012", "sbx-mnop3456", "sbx-qrst7890", "sbx-uvwx1234", "sbx-yzab5678", "sbx-cdef9012", "sbx-ghij3456", "sbx-klmn7890", "sbx-opqr1234", "sbx-stuv5678", "sbx-wxyz9012", "sbx-1234abcd", "sbx-5678efgh", "sbx-9012ijkl", "sbx-3456mnop", "sbx-7890qrst", "sbx-1234uvwx", "sbx-5678yzab"]
+}

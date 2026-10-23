@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "Using snapshot-based rollback allows recovery to a known good checkpoint taken before the risky step without losing the full environment configuration, providing reliable recovery while minimizing setup time compared to starting fresh",
+  "trace_path": "reports/failure_trace.jsonl"
+}

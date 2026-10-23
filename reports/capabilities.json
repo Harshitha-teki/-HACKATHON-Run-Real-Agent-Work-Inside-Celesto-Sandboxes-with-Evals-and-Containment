@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "snapshots",
+      "why": "Snapshots are used to checkpoint state before risky operations and enable rollback to a known good state if step 7 fails, providing strong recovery guarantees without losing the full environment configuration",
+      "evidence_path": "reports/evidence/containment.log"
+    },
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks are used to inspect and block dangerous commands before they execute in the guest, preventing exfiltration and destructive actions from reaching the host or external endpoints",
+      "evidence_path": "reports/evidence/containment.log"
+    }
+  ]
+}

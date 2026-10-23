@@ -1,0 +1,10 @@
+{
+  "jobs": [
+    {"sandbox_name": "sbx-job0001", "started_at": "2026-10-23T11:00:00Z"},
+    {"sandbox_name": "sbx-job0002", "started_at": "2026-10-23T11:00:01Z"},
+    {"sandbox_name": "sbx-job0003", "started_at": "2026-10-23T11:00:02Z"},
+    {"sandbox_name": "sbx-job0004", "started_at": "2026-10-23T11:00:03Z"},
+    {"sandbox_name": "sbx-job0005", "started_at": "2026-10-23T11:00:04Z"}
+  ],
+  "breakage_notes": "Rate limits observed with concurrent sandbox creation; implemented backoff and unique naming to avoid collisions"
+}

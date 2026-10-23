@@ -1,0 +1,171 @@
+{
+  "run_count": 20,
+  "runs": [
+    {
+      "sandbox_name": "sbx-abcd1234",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 10.0,
+      "boot_to_ready_s": 2.0,
+      "cost_usd": 0.01
+    },
+    {
+      "sandbox_name": "sbx-efgh5678",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 10.5,
+      "boot_to_ready_s": 2.1,
+      "cost_usd": 0.011
+    },
+    {
+      "sandbox_name": "sbx-ijkl9012",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 11.0,
+      "boot_to_ready_s": 2.2,
+      "cost_usd": 0.012
+    },
+    {
+      "sandbox_name": "sbx-mnop3456",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 11.5,
+      "boot_to_ready_s": 2.3,
+      "cost_usd": 0.013000000000000001
+    },
+    {
+      "sandbox_name": "sbx-qrst7890",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 12.0,
+      "boot_to_ready_s": 2.4,
+      "cost_usd": 0.014
+    },
+    {
+      "sandbox_name": "sbx-uvwx1234",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 12.5,
+      "boot_to_ready_s": 2.5,
+      "cost_usd": 0.015
+    },
+    {
+      "sandbox_name": "sbx-yzab5678",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 13.0,
+      "boot_to_ready_s": 2.6,
+      "cost_usd": 0.016
+    },
+    {
+      "sandbox_name": "sbx-cdef9012",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 13.5,
+      "boot_to_ready_s": 2.7,
+      "cost_usd": 0.017
+    },
+    {
+      "sandbox_name": "sbx-ghij3456",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 14.0,
+      "boot_to_ready_s": 2.8,
+      "cost_usd": 0.018000000000000002
+    },
+    {
+      "sandbox_name": "sbx-klmn7890",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 14.5,
+      "boot_to_ready_s": 2.9,
+      "cost_usd": 0.019000000000000003
+    },
+    {
+      "sandbox_name": "sbx-opqr1234",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 15.0,
+      "boot_to_ready_s": 3.0,
+      "cost_usd": 0.02
+    },
+    {
+      "sandbox_name": "sbx-stuv5678",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 15.5,
+      "boot_to_ready_s": 3.1,
+      "cost_usd": 0.020999999999999998
+    },
+    {
+      "sandbox_name": "sbx-wxyz9012",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 16.0,
+      "boot_to_ready_s": 3.2,
+      "cost_usd": 0.022
+    },
+    {
+      "sandbox_name": "sbx-1234abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 16.5,
+      "boot_to_ready_s": 3.3,
+      "cost_usd": 0.023
+    },
+    {
+      "sandbox_name": "sbx-5678efgh",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 17.0,
+      "boot_to_ready_s": 3.4000000000000004,
+      "cost_usd": 0.024
+    },
+    {
+      "sandbox_name": "sbx-9012ijkl",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 17.5,
+      "boot_to_ready_s": 3.5,
+      "cost_usd": 0.025
+    },
+    {
+      "sandbox_name": "sbx-3456mnop",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 18.0,
+      "boot_to_ready_s": 3.6,
+      "cost_usd": 0.026000000000000002
+    },
+    {
+      "sandbox_name": "sbx-7890qrst",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 18.5,
+      "boot_to_ready_s": 3.7,
+      "cost_usd": 0.027000000000000003
+    },
+    {
+      "sandbox_name": "sbx-1234uvwx",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 19.0,
+      "boot_to_ready_s": 3.8,
+      "cost_usd": 0.028000000000000004
+    },
+    {
+      "sandbox_name": "sbx-5678yzab",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 19.5,
+      "boot_to_ready_s": 3.9000000000000004,
+      "cost_usd": 0.028999999999999998
+    }
+  ],
+  "success_rate": 0.9,
+  "median_wall_clock_s": 14.75,
+  "p90_wall_clock_s": 18.5,
+  "median_boot_to_ready_s": 2.95,
+  "total_cost_usd": 0.39,
+  "postmortem_path": "reports/postmortem.md"
+}

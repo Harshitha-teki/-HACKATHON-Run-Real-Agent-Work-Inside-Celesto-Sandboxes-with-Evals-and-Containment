@@ -1,0 +1,6 @@
+{"ts": "2026-10-23T10:00:00Z", "event": "step_start", "step": 6}
+{"ts": "2026-10-23T10:00:10Z", "event": "snapshot_taken", "snapshot_id": "before-step-7"}
+{"ts": "2026-10-23T10:00:11Z", "event": "step_start", "step": 7}
+{"ts": "2026-10-23T10:00:20Z", "event": "step_failed", "step": 7, "error": "timeout"}
+{"ts": "2026-10-23T10:00:21Z", "event": "policy_applied", "policy": "rollback", "snapshot_id": "before-step-7"}
+{"ts": "2026-10-23T10:00:30Z", "event": "recovered"}
